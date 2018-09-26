@@ -1,1 +1,22 @@
 # csPortfolio
+
+* WebPage [here]()
+* Lightning [here]()
+
+```Java
+void draw()
+{
+  background(0);
+  photo.resize(0, 200);
+  image(photo, 50, 90);
+  while (endX<400) {
+    endX =startX +(int)(Math.random()*9);
+    endY =startY +(int)(Math.random()*19)-9;
+    line(startX, startY, endX, endY);
+    startX=endX;
+    startY=endY;
+    println("startX" +startX);
+    println("startY" +startY);
+  }
+}
+```
