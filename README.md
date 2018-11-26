@@ -3,7 +3,7 @@
 
 * WebPage [here](https://shay16.github.io/testPage/swimPage/)
 * Lightning [here](https://shay16.github.io/lightning2/)
-* Dice [Here](https://github.com/shay16/dice3.git)
+* Dice [Here](https://shay16.github.io/dice3/)
 * Starfield [here](https://shay16.github.io/starfield5/)
 * Chemotaxis [here](https://shay16.github.io/chemotaxis4/)
 ```Java
