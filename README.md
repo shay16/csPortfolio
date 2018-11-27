@@ -15,13 +15,13 @@
   
 ## Reflection:
 
-Sources of pride in programming development:  
+###Sources of pride in programming development:  
 >Two things that are a source of pride in my program development are my starfield and chemotaxis projects. I enjoyed being able to incorporate design into both projects. I learned a lot about the different functions of Math.random. I am really happy with the final outcome of these two projects. The two projects are accomplishments because they both took a lot of time, effort, and learning to make but they turned out really well.  
 
-Most significant hurdle encountered last trimester:
+###Most significant hurdle encountered last trimester:
 >I encountered LOTS of challenges throughout the trimester. One of the most significant hurdles I encountered was getting all of the dice to roll a random number between 1 and 6 and placing the corresponding amount of dots in the correct position. I resolved this issue by starting with just one die and with a lot of trial and error I was able to get the die to roll and the dots in the correct place. After that I was able to incorporate it on all of the dice. I typically have trouble getting the projects going but once they start to function I really enjoy adding different aspects of design.  
 
-Challenging code:
+###Challenging code:
 >I struggled making the OddballParticle class. I wanted the class to rotate the opposite direction of the NormalParticle and JumboParticle classes. I ended up finding a simple solution to this issue. I was able to get it to move the opposite direction by subtracting the angle instead of adding it. Another thing I did was work with the speed of the particles so the OddballParticle class moves at a slower rate than the NormalParticle and JumboParticle classes. I worked collaboratively with Dr. R to get the original circular motion of the Particle class and I worked individually on the rest of the starfield project. 
 
 
