@@ -5,7 +5,7 @@ Lab | Link
 1 | 2 
 
 * WebPage [here](https://shay16.github.io/testPage/swimPage/)
-> Blockquotes are very handy in email to emulate reply text.
+>> Blockquotes are very handy in email to emulate reply text.
 > This line is part of the same quote.
 * Lightning [here](https://shay16.github.io/lightning2/)
 > Blo
