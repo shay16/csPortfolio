@@ -20,6 +20,9 @@ What is one or two things that are a source of pride in your programming develop
 Identify the most significant hurdle you encountered last trimester.  Write about what it was and how it was resolved.
 >
 Chalenging code:
+>I struggled making the OddballParticle class. I wanted the class to rotate the opposite direction of the NormalParticle and JumboParticle classes. I ended up finding a simple solution to this issue. I was able to get it to move the opposite direction by subtracting the angle instead of adding it. Another thing I did was work with the speed of the particles so the OddballParticle class moves at a slower rate than the NormalParticle and JumboParticle classes. I worked collaboratively with Dr. R to get the original circular motion of the Particle class and I worked individually on the rest of the starfield project. 
+
+
 
 ```Java
 class OddballParticle implements Particle {
