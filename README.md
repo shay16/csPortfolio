@@ -20,19 +20,23 @@ Identify the most significant hurdle you encountered last trimester.  Write abou
 Chalenging code:
 
 ```Java
-void draw()
-{
-  background(0);
-  photo.resize(0, 200);
-  image(photo, 50, 90);
-  while (endX<400) {
-    endX =startX +(int)(Math.random()*9);
-    endY =startY +(int)(Math.random()*19)-9;
-    line(startX, startY, endX, endY);
-    startX=endX;
-    startY=endY;
-    println("startX" +startX);
-    println("startY" +startY);
+class OddballParticle implements Particle {
+  double x, y, speed, angle;
+  OddballParticle() {
+    x=width/2;
+    y=height/2;
+    speed=Math.random()*4;
+    angle=(Math.random())*Math.PI*2;
+  }
+  void move() {
+    x+=Math.cos(angle)*speed;
+    y+=Math.sin(angle)*speed;
+    angle-=.020;
+  }
+  void show() {
+    fill(255);
+    //fill(((int)Math.random()*205+50), ((int)Math.random()*205+50), ((int)Math.random()*205+100));
+    ellipse((int)x, (int)y, 10, 10);
   }
 }
 ```
