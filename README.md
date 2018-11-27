@@ -1,8 +1,4 @@
 # Shayla's Computer Science Portfolio
-Lab | Link 
---- | --- 
-*Still* | `renders` 
-1 | 2 
 
 * WebPage [here](https://shay16.github.io/testPage/swimPage/)
   > I really enjoyed making the website! I appreciated being able to design and format the website.
