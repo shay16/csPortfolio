@@ -13,11 +13,12 @@
 * College Presentation [here](https://docs.google.com/presentation/d/e/2PACX-1vSVdh9hhiTJKJZ2vKc1Ja0nFpV8B8eXYnVDWg5tvQ0k54pX715NL7UGem1VObwyCgV9bVhpr7UcQmYS/pub?start=false&loop=false&delayms=3000)
   > I really enjoyed this assignment. I researched the University of Illinois Urbana Champaign! I loved learning about all the university has to offer. 
   
-Questions:
+Reflection:
 
-What is one or two things that are a source of pride in your programming development?  
->
-Identify the most significant hurdle you encountered last trimester.  Write about what it was and how it was resolved.
+Sources of pride in programming development:  
+>Two things that are a source of pride in my program development are my starfield and chemotaxis projects. I enjoyed being able to incorporate design into both projects. I learned a lot about the different functions of Math.random. I am really happy with the final outcome of these two projects. The two projects are accomplishments because they both took a lot of time, effort, and learning to make but they turned out really well.  
+
+Most significant hurdle encountered last trimester:
 >
 Challenging code:
 >I struggled making the OddballParticle class. I wanted the class to rotate the opposite direction of the NormalParticle and JumboParticle classes. I ended up finding a simple solution to this issue. I was able to get it to move the opposite direction by subtracting the angle instead of adding it. Another thing I did was work with the speed of the particles so the OddballParticle class moves at a slower rate than the NormalParticle and JumboParticle classes. I worked collaboratively with Dr. R to get the original circular motion of the Particle class and I worked individually on the rest of the starfield project. 
