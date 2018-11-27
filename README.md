@@ -11,9 +11,13 @@
 * Chemotaxis [here](https://shay16.github.io/chemotaxis4/)
   > Chemotaxis was very challenging.I struggled getting the sharks to move the way I wanted. I am very happy with the end result.
 * College Presentation [here](https://docs.google.com/presentation/d/e/2PACX-1vSVdh9hhiTJKJZ2vKc1Ja0nFpV8B8eXYnVDWg5tvQ0k54pX715NL7UGem1VObwyCgV9bVhpr7UcQmYS/pub?start=false&loop=false&delayms=3000)
-  > I really enjoyed this assignment. I researched the University of Illinois Urbana Champaign! I loved learning about all the university >has to offer. 
+  > I really enjoyed this assignment. I researched the University of Illinois Urbana Champaign! I loved learning about all the university has to offer. 
   
 Questions:
+What is one or two things that are a source of pride in your programming development?  
+Identify the most significant hurdle you encountered last trimester.  Write about what it was and how it was resolved.
+
+Chalenging code:
 
 ```Java
 void draw()
