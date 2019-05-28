@@ -4,7 +4,7 @@
   > I really enjoyed making the website! I appreciated being able to design and format the website.
 * Lightning [here](https://shay16.github.io/lightning2/)
   > I liked the lightning project. I had some difficulty getting the lightning to stay on the screen.
-* Dice [here](https://github.com/shay16/dice3.git)
+* Dice [here](https://shay16.github.io/dice3/)
   > I struggled with the dice project. It took a lot of trial and error to complete.
 * Starfield [here](https://shay16.github.io/starfield5/)
   > Starfield was my favorite project. I really enjoyed designing it!
