@@ -10,8 +10,8 @@
   > Chemotaxis was very challenging. I struggled getting the sharks to move the way I wanted. I am very happy with the end result.
 * Holiday Card [here](https://github.com/shay16/Holiday-Card.git)
  
-## Reflection:
-### Favorite Projects:
+
+## Favorite Projects:
 >Bachelor Projects
 <details>
 <summary>Bachelor Map</summary>
@@ -56,7 +56,7 @@ This is the code that determines if the contestant received the first impression
 
 ## Built With
 
-* [Processing](https://processing.org/) - The IDE used
+* [Processing](https://processing.org/) 
 
 ## Authors
 
@@ -116,7 +116,7 @@ This is the code that determines if the contestant received the first impression
 
 ## Built With
 
-* [Processing](https://processing.org/) - The IDE used
+* [Processing](https://processing.org/) 
 
 ## Authors
 
@@ -131,6 +131,10 @@ This is the code that determines if the contestant received the first impression
 * The Bachelor
 
 </details>
+
+<details>
+<summary>Reflection</summary>
+<br>
 
 ### Sources of pride in programming development:  
 >Two things that are a source of pride in my program development are my starfield and chemotaxis projects. I enjoyed being able to incorporate design into both projects. I learned a lot about the different functions of Math.random. I am really happy with the final outcome of these two projects. The two projects are accomplishments because they both took a lot of time, effort, and learning to make but they turned out really well.  
@@ -164,4 +168,4 @@ class OddballParticle implements Particle {
   }
 }
 ```
-
+</details>
