@@ -82,38 +82,29 @@ This is the code that determines if the contestant received the first impression
 
  ### Difficulties 
 
-The toughest part was making the method that sorted through the data to find out the probability that a contestant won both the first impression rose and the final rose. This was difficult because we had to determine how to loop through the map and use the map methods to attain the information we wanted. We solved them by trial and error along with asking Dr. R. The reference sheet with map methods was also useful. Another challenge we faced was that when we were parsing through the data our program was picking up information that is wasn't supposed to which altered our counter. The inaccurate counter messed up a percentage that was crucial to the success of our project. We tackled this obstacle by taking a different approach. Instead of using the .equals method for the entire string that represented a contestant, we went through each ‘box’ of data one by one by using an array list. This solved our issue and calculated accurate percentages.
+We encountered several difficulties. One of the challenges we faced was traversing through the tree. We keep getting a null pointer error. Another challenge we faced was when we used the mouse pressed buttons we would always end up at the last slide. We resolved the issue by changing the values of the isBetween method so it would only be called the correct number of times. We used a lot of trial and error and we eventually resolved both issues. 
 
 
 ### Most interesting piece of code 
 
 ```Java
-public BB(String line){
-    String[] person= line.split(",");
-    
-    season = person[1];
-    name = person[2];
-    
-    if(line.contains("R1"))
-    R1=true;
-    else
-    R1=false;
-    if(line.contains("W"))
-    W=true;
-    else
-    W=false;
-    
-   // for(int i = 0;i<person.length;i++){
-     // out.println(person[i]);
-    if(line.contains(",EF,"))
-      EF = true;
-    else
-      EF = false;
-    
+TreeNode buildTree(){
+     
+    root = new TreeNode("Do you fall in love quickly?");
+    //level one
+    root.setLeft(new TreeNode("Do you like to stir the pot"));
+    root.setRight(new TreeNode("What if they're Instagram famous?"));
+    //level two
+    root.getLeft().setRight(new TreeNode("The Bachelor" ));
+    root.getRight().setLeft(new TreeNode("The Bachelorette" ));
+    root.getLeft().setLeft(new TreeNode("Bachelor in Paradise" ));
+    root.getRight().setRight(new TreeNode("Avoid these shows at all costs"));
+  
+     current = root;
+     return current;
   }
 ```
-This is the code that determines if the contestant received the first impression rose and the final rose.  
-
+This is the code that builds the bachelor tree
 ## Built With
 
 * [Processing](https://processing.org/) 
@@ -136,7 +127,7 @@ This is the code that determines if the contestant received the first impression
 ## Reflection
 
 <details>
-<summary>Reflection</summary>
+<summary>HERE</summary>
 <br>
 
 ### Sources of pride in programming development:  
