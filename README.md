@@ -15,13 +15,19 @@
 ## Reflection:
 ### Favorite Projects:
 >Bachelor Projects
-* Bachelor Map 
+<details>
+<summary>Bachelor Map</summary>
+<br>
 ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(10).png "Logo Title Text 1")
 ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(9).png "Logo Title Text 1")
+</details>
+
+<details>
+<summary>Bachelor Tree</summary>
+<br>
 ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(16).png "Logo Title Text 1")
 ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(17).png "Logo Title Text 1")
-* Bachelor Tree 
-
+</details>
 
 
 ### Sources of pride in programming development:  
