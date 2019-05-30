@@ -18,6 +18,10 @@
 <details>
 <summary>Bachelor Map</summary>
 <br>
+  
+  ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(10).png "Logo Title Text 1")
+![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(9).png "Logo Title Text 1")
+
   ### Difficulties or opportunities you encountered along the way.
 
 The toughest part was...
@@ -66,13 +70,7 @@ This is the code that moves down the tree as decisions are made. It gets each va
 ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(9).png "Logo Title Text 1")
 <details>
   
-  ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(10).png "Logo Title Text 1")
-![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(9).png "Logo Title Text 1")
-  
 <summary>Bachelor Tree</summary>
-  
-  ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(10).png "Logo Title Text 1")
-![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(9).png "Logo Title Text 1")
 
 <br>
 
