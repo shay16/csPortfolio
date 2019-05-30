@@ -19,36 +19,43 @@
 <summary>Bachelor Map</summary>
 <br>
   
-  ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(10).png "Logo Title Text 1")
+![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(10).png "Logo Title Text 1")
 ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(9).png "Logo Title Text 1")
 
-  ### Difficulties or opportunities you encountered along the way.
+  ### Difficulties 
 
-The toughest part was...
+The toughest part was making the method that sorted through the data to find out the probability that a contestant won both the first impression rose and the final rose. This was difficult because we had to determine how to loop through the map and use the map methods to attain the information we wanted. We solved them by trial and error along with asking Dr. R. The reference sheet with map methods was also useful. Another challenge we faced was that when we were parsing through the data our program was picking up information that is wasn't supposed to which altered our counter. The inaccurate counter messed up a percentage that was crucial to the success of our project. We tackled this obstacle by taking a different approach. Instead of using the .equals method for the entire string that represented a contestant, we went through each ‘box’ of data one by one by using an array list. This solved our issue and calculated accurate percentages.
 
-### Most interesting piece of your code and explanation for what it does.
+
+### Most interesting piece of code 
 
 ```Java
-void keyPressed() {
-if (keyCode == LEFT) {
-   tree= tree.getLeft();
-   System.out.println(tree.getValue());
-   String s=(String)tree.getValue();
-   fill(155);
-   textSize(50);
-} else if (keyCode == RIGHT) {
-   tree = tree.getRight();
-   System.out.println(tree.getValue());
-   String s=(String)tree.getValue();
-   fill(155);
-   textSize(50);
-} else if (tree.getLeft()==null&&tree.getRight()==null) {
-   System.out.println(tree.getValue());
-   tree=t.returnTree();
-}
-}
+public BB(String line){
+    String[] person= line.split(",");
+    
+    season = person[1];
+    name = person[2];
+    
+    if(line.contains("R1"))
+    R1=true;
+    else
+    R1=false;
+    if(line.contains("W"))
+    W=true;
+    else
+    W=false;
+    
+   // for(int i = 0;i<person.length;i++){
+     // out.println(person[i]);
+    if(line.contains(",EF,"))
+      EF = true;
+    else
+      EF = false;
+    
+  }
 ```
-This is the code that moves down the tree as decisions are made. It gets each value from both left and right and also casts the value to a String. If the progressions arrives at the leaf nodes, those values are printed.
+This is the code that determines if the contestant received the first impression rose and the final rose.  
+
 ## Built With
 
 * [Processing](https://processing.org/) - The IDE used
@@ -66,8 +73,6 @@ This is the code that moves down the tree as decisions are made. It gets each va
 * The Bachelor
 </details>
 
-![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(10).png "Logo Title Text 1")
-![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(9).png "Logo Title Text 1")
 <details>
   
 <summary>Bachelor Tree</summary>
