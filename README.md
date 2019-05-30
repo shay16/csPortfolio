@@ -5,7 +5,7 @@
 * Dice [here](https://shay16.github.io/dice3/)
   > I struggled with the dice project. It took a lot of trial and error to complete.
 * Starfield [here](https://shay16.github.io/starfield5/)
-  > Starfield was my favorite project. I really enjoyed designing it!
+  > Starfield was a fun project. I really enjoyed designing it!
 * Chemotaxis [here](https://github.com/shay16/Chemo/blob/master/Screenshot%20(15).png)
   > Chemotaxis was very challenging. I struggled getting the sharks to move the way I wanted. I am very happy with the end result.
 * College Presentation [here](https://docs.google.com/presentation/d/e/2PACX-1vSVdh9hhiTJKJZ2vKc1Ja0nFpV8B8eXYnVDWg5tvQ0k54pX715NL7UGem1VObwyCgV9bVhpr7UcQmYS/pub?start=false&loop=false&delayms=3000)
@@ -18,17 +18,59 @@
 <details>
 <summary>Bachelor Map</summary>
 <br>
+  ### Difficulties or opportunities you encountered along the way.
+
+The toughest part was...
+
+### Most interesting piece of your code and explanation for what it does.
+
+```Java
+void keyPressed() {
+if (keyCode == LEFT) {
+   tree= tree.getLeft();
+   System.out.println(tree.getValue());
+   String s=(String)tree.getValue();
+   fill(155);
+   textSize(50);
+} else if (keyCode == RIGHT) {
+   tree = tree.getRight();
+   System.out.println(tree.getValue());
+   String s=(String)tree.getValue();
+   fill(155);
+   textSize(50);
+} else if (tree.getLeft()==null&&tree.getRight()==null) {
+   System.out.println(tree.getValue());
+   tree=t.returnTree();
+}
+}
+```
+This is the code that moves down the tree as decisions are made. It gets each value from both left and right and also casts the value to a String. If the progressions arrives at the leaf nodes, those values are printed.
+## Built With
+
+* [Processing](https://processing.org/) - The IDE used
+
+## Authors
+
+* **Shayla**
+* **Sydney**
+* **Madison**
+
+
+## Acknowledgments
+
+* Dr. R.
+* The Bachelor
+</details>
 ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(10).png "Logo Title Text 1")
 ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(9).png "Logo Title Text 1")
-</details>
 <details>
 <summary>Bachelor Tree</summary>
 <br>
-  hello
+  
+
+</details>
 ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(16).png "Logo Title Text 1")
 ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(17).png "Logo Title Text 1")
-</details>
-
 
 ### Sources of pride in programming development:  
 >Two things that are a source of pride in my program development are my starfield and chemotaxis projects. I enjoyed being able to incorporate design into both projects. I learned a lot about the different functions of Math.random. I am really happy with the final outcome of these two projects. The two projects are accomplishments because they both took a lot of time, effort, and learning to make but they turned out really well.  
