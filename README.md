@@ -11,8 +11,14 @@
 * College Presentation [here](https://docs.google.com/presentation/d/e/2PACX-1vSVdh9hhiTJKJZ2vKc1Ja0nFpV8B8eXYnVDWg5tvQ0k54pX715NL7UGem1VObwyCgV9bVhpr7UcQmYS/pub?start=false&loop=false&delayms=3000)
   > I really enjoyed this assignment. I researched the University of Illinois Urbana Champaign! I loved learning about all the university has to offer. 
 * Holiday Card [here](https://github.com/shay16/Holiday-Card.git)
-  
+ 
 ## Reflection:
+### Favorite Projects:
+>Bachelor Projects
+* Bachelor Map [here](https://shay16.github.io/chemotaxis4/)
+* Bachelor Tree [here](https://shay16.github.io/chemotaxis4/)
+
+
 
 ### Sources of pride in programming development:  
 >Two things that are a source of pride in my program development are my starfield and chemotaxis projects. I enjoyed being able to incorporate design into both projects. I learned a lot about the different functions of Math.random. I am really happy with the final outcome of these two projects. The two projects are accomplishments because they both took a lot of time, effort, and learning to make but they turned out really well.  
@@ -46,3 +52,4 @@ class OddballParticle implements Particle {
   }
 }
 ```
+
