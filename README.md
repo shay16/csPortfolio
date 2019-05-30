@@ -132,6 +132,8 @@ This is the code that determines if the contestant received the first impression
 
 </details>
 
+##Reflection
+
 <details>
 <summary>Reflection</summary>
 <br>
