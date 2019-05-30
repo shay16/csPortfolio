@@ -61,6 +61,7 @@ This is the code that moves down the tree as decisions are made. It gets each va
 * Dr. R.
 * The Bachelor
 </details>
+
 ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(10).png "Logo Title Text 1")
 ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(9).png "Logo Title Text 1")
 <details>
