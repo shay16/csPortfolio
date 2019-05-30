@@ -8,8 +8,6 @@
   > Starfield was a fun project. I really enjoyed designing it!
 * Chemotaxis [here](https://github.com/shay16/Chemo/blob/master/Screenshot%20(15).png)
   > Chemotaxis was very challenging. I struggled getting the sharks to move the way I wanted. I am very happy with the end result.
-* College Presentation [here](https://docs.google.com/presentation/d/e/2PACX-1vSVdh9hhiTJKJZ2vKc1Ja0nFpV8B8eXYnVDWg5tvQ0k54pX715NL7UGem1VObwyCgV9bVhpr7UcQmYS/pub?start=false&loop=false&delayms=3000)
-  > I really enjoyed this assignment. I researched the University of Illinois Urbana Champaign! I loved learning about all the university has to offer. 
 * Holiday Card [here](https://github.com/shay16/Holiday-Card.git)
  
 ## Reflection:
@@ -82,6 +80,55 @@ This is the code that determines if the contestant received the first impression
 ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(16).png "Logo Title Text 1")
 ![alt text](https://github.com/shay16/testPage/blob/gh-pages/Screenshot%20(17).png "Logo Title Text 1")
 
+ ### Difficulties 
+
+The toughest part was making the method that sorted through the data to find out the probability that a contestant won both the first impression rose and the final rose. This was difficult because we had to determine how to loop through the map and use the map methods to attain the information we wanted. We solved them by trial and error along with asking Dr. R. The reference sheet with map methods was also useful. Another challenge we faced was that when we were parsing through the data our program was picking up information that is wasn't supposed to which altered our counter. The inaccurate counter messed up a percentage that was crucial to the success of our project. We tackled this obstacle by taking a different approach. Instead of using the .equals method for the entire string that represented a contestant, we went through each ‘box’ of data one by one by using an array list. This solved our issue and calculated accurate percentages.
+
+
+### Most interesting piece of code 
+
+```Java
+public BB(String line){
+    String[] person= line.split(",");
+    
+    season = person[1];
+    name = person[2];
+    
+    if(line.contains("R1"))
+    R1=true;
+    else
+    R1=false;
+    if(line.contains("W"))
+    W=true;
+    else
+    W=false;
+    
+   // for(int i = 0;i<person.length;i++){
+     // out.println(person[i]);
+    if(line.contains(",EF,"))
+      EF = true;
+    else
+      EF = false;
+    
+  }
+```
+This is the code that determines if the contestant received the first impression rose and the final rose.  
+
+## Built With
+
+* [Processing](https://processing.org/) - The IDE used
+
+## Authors
+
+* **Shayla**
+* **Sydney**
+* **Madison**
+
+
+## Acknowledgments
+
+* Dr. R.
+* The Bachelor
 
 </details>
 
